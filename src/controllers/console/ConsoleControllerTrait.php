@@ -1,5 +1,5 @@
 <?php
-namespace topshelfcraft\base\controllers\console;
+namespace TopShelfCraft\base\controllers\console;
 
 use yii\console\ExitCode;
 use yii\helpers\Console;

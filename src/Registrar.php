@@ -1,5 +1,5 @@
 <?php
-namespace topshelfcraft\base;
+namespace TopShelfCraft\base;
 
 use Craft;
 use craft\base\Plugin;
@@ -31,7 +31,7 @@ class Registrar {
 				[
 					'headers' => $headers + [
 						'X-Registrar-Source' => $source,
-						'X-Registrar-SchemaVersion' => static::SCHEMA_VERSION,
+						'X-Registrar-SchemaVersion' => self::SCHEMA_VERSION,
 					],
 					'connect_timeout' => 1.618,
 					'timeout' => 1.618,

@@ -1,5 +1,5 @@
 <?php
-namespace topshelfcraft\base\controllers\web;
+namespace TopShelfCraft\base\controllers\web;
 
 use Craft;
 use yii\web\Response;

@@ -1,5 +1,5 @@
 <?php
-namespace topshelfcraft\base;
+namespace TopShelfCraft\base;
 
 use craft\base\Plugin as CraftPlugin;
 
