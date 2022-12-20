@@ -38,13 +38,13 @@ trait ConsoleControllerTrait
         try
         {
             $function();
-            $profile && $this->_writeLine("(Completed in " . (microtime(true) - $startTime) . "s.)");
+            $profile && $this->writeLine("(Completed in " . (microtime(true) - $startTime) . "s.)");
             return ExitCode::OK;
         }
         catch (\Exception $e)
         {
-            $profile && $this->_writeLine("(Failed after " . (microtime(true) - $startTime) . "s.)");
-            $this->_writeErr($e->getMessage());
+            $profile && $this->writeLine("(Failed after " . (microtime(true) - $startTime) . "s.)");
+            $this->writeErr($e->getMessage());
             return ExitCode::UNSPECIFIED_ERROR;
         }
 
